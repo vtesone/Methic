@@ -754,3 +754,160 @@ function fnc__specialcol_(values, context) {
 function fnc_project_color(values, context) {
     return false;
 };
+
+
+
+function exp_FATTURE_4rule0_eval_expression(context) {
+    // Medico = '[N/A]'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['Medico']  == '[N/A]');
+    } else {
+        return (feature['Medico']  == '[N/A]');
+    }
+}
+
+
+function exp_FATTURE_4rule1_eval_expression(context) {
+    // Medico = 'Cribari Alessandro'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['Medico']  == 'Cribari Alessandro');
+    } else {
+        return (feature['Medico']  == 'Cribari Alessandro');
+    }
+}
+
+
+function exp_FATTURE_4rule2_eval_expression(context) {
+    // Medico = 'Extra Jolly'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['Medico']  == 'Extra Jolly');
+    } else {
+        return (feature['Medico']  == 'Extra Jolly');
+    }
+}
+
+
+function exp_FATTURE_4rule3_eval_expression(context) {
+    // Medico = 'Falcetti Roberta'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['Medico']  == 'Falcetti Roberta');
+    } else {
+        return (feature['Medico']  == 'Falcetti Roberta');
+    }
+}
+
+
+function exp_FATTURE_4rule4_eval_expression(context) {
+    // Medico = 'Feraudo Emanuela'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['Medico']  == 'Feraudo Emanuela');
+    } else {
+        return (feature['Medico']  == 'Feraudo Emanuela');
+    }
+}
+
+
+function exp_FATTURE_4rule5_eval_expression(context) {
+    // Medico = 'FKT'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['Medico']  == 'FKT');
+    } else {
+        return (feature['Medico']  == 'FKT');
+    }
+}
+
+
+function exp_FATTURE_4rule6_eval_expression(context) {
+    // Medico = 'Garro Luca'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['Medico']  == 'Garro Luca');
+    } else {
+        return (feature['Medico']  == 'Garro Luca');
+    }
+}
+
+
+function exp_FATTURE_4rule7_eval_expression(context) {
+    // Medico = 'Graziani Emanuele'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['Medico']  == 'Graziani Emanuele');
+    } else {
+        return (feature['Medico']  == 'Graziani Emanuele');
+    }
+}
+
+
+function exp_FATTURE_4rule8_eval_expression(context) {
+    // Medico = 'Leonardi Rita'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['Medico']  == 'Leonardi Rita');
+    } else {
+        return (feature['Medico']  == 'Leonardi Rita');
+    }
+}
+
+
+function exp_FATTURE_4rule9_eval_expression(context) {
+    // Medico = 'Menchinelli Paolo'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['Medico']  == 'Menchinelli Paolo');
+    } else {
+        return (feature['Medico']  == 'Menchinelli Paolo');
+    }
+}
+
+
+function exp_FATTURE_4rule10_eval_expression(context) {
+    // Medico = 'Tesone Valerio'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['Medico']  == 'Tesone Valerio');
+    } else {
+        return (feature['Medico']  == 'Tesone Valerio');
+    }
+}
+
+
+function exp_FATTURE_4rule11_eval_expression(context) {
+    // Medico = 'Vellucci Olga'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['Medico']  == 'Vellucci Olga');
+    } else {
+        return (feature['Medico']  == 'Vellucci Olga');
+    }
+}
